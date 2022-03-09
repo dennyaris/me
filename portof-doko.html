@@ -1,0 +1,84 @@
+
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="fa-solid fa-close"></i></a>
+            </div>
+        </div>
+
+        <div class="ajax-page-title">
+            <h1>Dokodemo-Kerja</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8 col-md-8 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="img/portof/doko.jpeg" />
+                    </div>
+                    <div class="item">
+                        <img src="img/portof/doko2.jpg" />
+                    </div>
+                </div>
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZRU2cc7lWbw"></iframe>
+                </div>
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').imagesLoaded(function(){
+                            $('.portfolio-page-carousel').owlCarousel({
+                                smartSpeed:1200,
+                                items: 1,
+                                loop: true,
+                                dots: true,
+                                nav: true,
+                                navText: false,
+                                margin: 10,
+                                autoHeight:true
+                            });
+                        });
+                    });
+                </script>
+            </div>
+
+            <div class="col-sm-4 col-md-4 portfolio-block">
+                <!-- Project Description -->
+                <div class="project-description">
+                    <div class="block-title">
+                        <h3>Description</h3>
+                    </div>
+                    <ul class="project-general-info">
+                        <li><p><i class="fa fa-briefcase"></i> Logique</p></li>
+                        <li><p><i class="fa fa-globe"></i> <a href="https://demo.dokodemo-kerja.com/login" target="_blank">Dokodemo-Kerja</a></p></li>
+                    </ul>
+
+                    <p class="text-justify">
+                        Dokodemo-Kerja is an effective attendance management tool that aims to reshape the way employee’s 
+                        conduct their work routines. As a staff management SaaS tool, Dokodemo-Kerja enables the implementation of remote work 
+                        strategies outside of the workplace, as well as promoting better organization of office based work within the workplace. It is a tool manufactured and sold within Indonesia for local businesses, 
+                        but it can also be used overseas. Its main function regards effectively tracking & monitoring employee working hours, in addition to the flexible administration of leaves, vacations, and late arrivals. 
+                        Its key feature allows for accurate screen capturing capabilities, allowing managers to check each employee’s rate of work consistency between the recorded intervals of time.
+                    </p>
+                    <!-- /Project Description -->
+
+                    <!-- Category -->
+                    <div class="tags-block">
+                        <div class="block-title">
+                            <h3>Category</h3>
+                        </div>
+                        <ul class="tags">
+                            <li><a>Backend Development</a></li>
+                            <li><a>CMS</a></li>
+                            <li><a>Electron Js</a></li>
+                        </ul>
+                    </div>
+                    <!-- /Category -->
+                </div>
+                <!-- Project Description -->
+            </div>
+        </div>
+    </div>
+</div>
