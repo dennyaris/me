@@ -1,3 +1,3 @@
-## Denny's Resume
+## Denny Aris Resume
 
-Professional resume v1
+Professional resume
