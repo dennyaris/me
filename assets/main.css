@@ -2807,3 +2807,7 @@ blockquote {
     line-height: 1;
     border: none
 }
+
+i.heart {
+    color: red;
+}
